@@ -1,28 +1,28 @@
-import logging
+import loggingśś
 from logging.handlers import RotatingFileHandler
 
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
 PORT = '5010'
-OWNER_ID = 6497757690
+OWNER_ID = 1056566022
 
 MSG_EFFECT = 5046509860389126442
 
-SHORT_URL = "linkshortify.com" # shortner url 
+SHORT_URL = "" # shortner url 
 SHORT_API = "" 
 SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 
 # Bot Configuration
 SESSION = "yato"
-TOKEN = "642712"
-API_ID = ""
-API_HASH = ""
+TOKEN = "8146412374:AAFRRgCl8BN9cmKWljhqAYGc7Ri2bEUGJ6I"
+API_ID = "26693705"
+API_HASH = "9604403a236681897801a71a9aff3e92"
 WORKERS = 5
 
-DB_URI = "mongodb"
+DB_URI = "mongodb+srv://zenbot493_db_user:EvCSPsWHdnTO0By8@cluster0.rxp6ywd.mongodb.net/?appName=Cluster0"
 DB_NAME = "yato"
 
-FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1003868389782, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
 DB_CHANNEL =    # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
@@ -31,9 +31,9 @@ DB_CHANNEL =    # just put channel id dont add ""
 #     "-1001234567890": {"name": "Secondary DB", "is_primary": False, "is_active": True}
 # }
 # Auto Delete Timer (seconds)
-AUTO_DEL = 300
+AUTO_DEL = "" 
 # Admin IDs
-ADMINS = [6497757690, 6103092779]
+ADMINS = [1056566022]
 # Bot Settings
 DISABLE_BTN = True
 PROTECT = True
